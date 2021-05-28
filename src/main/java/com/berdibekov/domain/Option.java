@@ -18,10 +18,4 @@ public class Option {
 
     @Column(name = "OPTION_VALUE")
     private String value;
-
-//    @JoinTable(name = "QESTIONS",joinColumns = {@JoinColumn(name = "QUESTION_ID")})
-//    Long question;
-//    @JoinColumn(name = "OPTION_ID")
-//    @OneToMany
-//    private Set<SingleVote> singleVote;
 }
