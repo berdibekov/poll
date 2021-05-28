@@ -1,0 +1,34 @@
+# JetBrains IDEs
+out/
+
+## Dir-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+*.iml
+
+# Eclipse IDE
+.metadata
+bin/
+tmp/
+*.tmp
+*.jar
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.classpath
+.project
+
+
+## External tool builders
+.externalToolBuilders/
+/target/
+/storage/redis/data/fdsfdsfds
+/storage/
+/src/main/resources/static/swagger-ui/
