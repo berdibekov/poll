@@ -11,8 +11,8 @@ if [ $? -ne 0 ]; then
 fi
 # ---------------------------------------------------------------------------
 cp -f target/Poll-app-0.0.1-SNAPSHOT.jar dist
-cp -f scripts/tl.sh dist
-chmod a+x dist/tl.sh
-#rm -f target/
+cp -f scripts/poll-app.sh dist
+chmod a+x dist/poll-app.sh
+rm -f target/
 # ---------------------------------------------------------------------------
 echo "...successfull v"
