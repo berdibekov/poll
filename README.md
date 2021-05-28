@@ -4,6 +4,7 @@
  1. Poll-app - REST application based on Spring boot framework(Spring Data,Spring Security,Spring mvc).
    
  1. Database - H2 (with users,roles,and domain objects)
+    - src\main\resources\import.sql - init database script
  1. Authentication - Basic Auth
     admin and user are in the database
     - admin
