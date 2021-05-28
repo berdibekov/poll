@@ -32,21 +32,26 @@ API documentation by Swagger
 
 Lunch application. API documentation will be on http://localhost:8080/swagger-ui/index.html
 
+- at docs\CreatePollRequestBody.json - example of json
+- at docs\Fabrique.postman_collection.json - request collection for postman
+
+
 Compile and run instruction
 -
 
 - Run from Intellij IDEA.
- In Intellij IDEA click to project folder->add framework support->Maven.
+    - In Intellij IDEA click to project folder->add framework support->Maven.
+    - Lunch src\main\java\com\berdibekov\PollApplication.java .
 
 - From Console 
-- Windows
-    - run make.bat
-    - run scripts\poll-app.bat
-- UNIX (Linux,Mac OS)     
-    - chmod ugo+x make.sh 
-    - make.sh (UNIX)
-    - chmod ugo+x scripts\poll-app.sh
-    - scripts\poll-app.sh (UNIX)
+    - Windows
+        - run make.bat
+        - run scripts\poll-app.bat
+    - UNIX (Linux,Mac OS)     
+        - chmod ugo+x make.sh 
+        - make.sh (UNIX)
+        - chmod ugo+x scripts\poll-app.sh
+        - scripts\poll-app.sh (UNIX)
  
     
     
