@@ -38,8 +38,15 @@ Compile and run instruction
 - Run from Intellij IDEA.
  In Intellij IDEA click to project folder->add framework support->Maven.
 
-- From Console run make.bat (WINDOWS) or make.sh (UNIX)
-- run scripts\poll-app.bat (WINDOWS) or scripts\poll-app.sh (UNIX)
+- From Console 
+- Windows
+    - run make.bat
+    - run scripts\poll-app.bat
+- UNIX (Linux,Mac OS)     
+    - chmod ugo+x make.sh 
+    - make.sh (UNIX)
+    - chmod ugo+x scripts\poll-app.sh
+    - scripts\poll-app.sh (UNIX)
  
     
     
